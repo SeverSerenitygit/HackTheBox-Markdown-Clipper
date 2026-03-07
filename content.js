@@ -3,8 +3,28 @@
     buttonClass: 'htb-copy-button',
     toastId: 'htb-md-toast',
     selector: 'pre.shiki',
-    langMap: { shellsession: 'bash', shell: 'bash' }
-  };
+    langMap: {
+      "shellsession": "bash",
+      "shell":        "bash",
+      "bash":         "bash",
+      "powershell":   "powershell",
+      "python":       "python",
+      "sql":          "sql",
+      "javascript":   "javascript",
+      "typescript":   "typescript",
+      "php":          "php",
+      "java":         "java",
+      "go":           "go",
+      "html":         "html",
+      "xml":          "xml",
+      "yaml":         "yaml",
+      "json":         "json",
+      "nasm":         "nasm",
+      "css":          "css",
+      "csharp":       "csharp",
+      "cpp":          "cpp",
+      "c":            "c",
+    };
 
   const trackMousePosition = (e) => {
     Object.assign(document.documentElement.dataset, {
